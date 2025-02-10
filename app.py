@@ -80,26 +80,29 @@ else:
     else:
         print("You're too young")
  """
-""" raining = False
-if not raining == true:
-    print("go for walk")
-if raining == false:
+""" raining = True
+if raining == True:
+    print("stay home")
+if raining == False:
     print("go for walk")
 #these are the same """
 
-""" print(12 % 5)
+print(12%5)
 #% gives you the remainder
 x = "test"
-print(f"hi {x}")
+print(f"number {x}")
 
-number = 68
-if (% = 0):
+number = input("What is the number?")
+x= "number"
+print(x%2)
+#% gives you the remainder
+if (x%2) == "0":
     print('even')
 else: 
     print('odd')
- """
 
-bill = good
+
+""" service = input("good")
 def bill(service):
     if service == bad:
      print("0%")
@@ -109,4 +112,4 @@ def bill(service):
         print("20%")
     else:
         print("25%")
-x = input("I'll take the bill")
+x = input("I'll take the bill") """
