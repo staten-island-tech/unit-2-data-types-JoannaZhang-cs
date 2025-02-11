@@ -26,7 +26,7 @@ print(z) """
         print("logged in")
     else:
         print("incorrect")
-x = input("what is the passoword")
+x = input("what is the password")
 login(x) """
 
 """ def grade(score):
@@ -87,29 +87,45 @@ if raining == False:
     print("go for walk")
 #these are the same """
 
-print(12%5)
+
+
+#odd and even test
+
 #% gives you the remainder
-x = "test"
+
+""" x = "test"
 print(f"number {x}")
 
-number = input("What is the number?")
-x= "number"
-print(x%2)
-#% gives you the remainder
-if (x%2) == "0":
+
+number = int(input("What is the number?"))
+
+if (number % 2) == 0:
     print('even')
 else: 
-    print('odd')
+    print('odd') """
 
 
-""" service = input("good")
+#bill challenge
+
+""" # Ask for the rating
+service = input ("How was the service?")
+# Call the function to display the bill percentage
 def bill(service):
-    if service == bad:
-     print("0%")
-    elif service == okay:
+    if service.lower() == "bad":
+        print("0%")
+    elif service.lower() == "okay":
         print("15%")
-    elif service == good:
+    elif service.lower() == "good":
         print("20%")
     else:
         print("25%")
-x = input("I'll take the bill") """
+bill(service)
+#RUN THE CODE!!!! (BILL(SERVICE)) """
+
+
+input
+
+#check i X is a factor Modulo
+#if factor == true add to list
+#loop from 2 to Y for i in range(2,15)
+#if  x isFactor and y isFactor then add to list
