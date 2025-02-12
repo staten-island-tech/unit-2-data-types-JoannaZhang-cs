@@ -123,9 +123,29 @@ bill(service)
 #RUN THE CODE!!!! (BILL(SERVICE)) """
 
 
-input
+
+#Create a function that accepts an input and determines all factors of the number.
+
+""" def find_factors(n):
+    factors = []
+    for i in range(1, n+1):
+        if n % i == 0:
+            factors.append(i)
+    return factors
+print(find_factors(15))
 
 #check i X is a factor Modulo
 #if factor == true add to list
 #loop from 2 to Y for i in range(2,15)
-#if  x isFactor and y isFactor then add to list
+#if  x isFactor and y isFactor then add to list """
+
+
+
+#Create a function that accepts 2 arguments. Find the greatest common factor between those numbers.
+
+def find_gcf(num1,num2):
+    while num2 > 0:
+    #!= means not equal
+        num1, num2 = num2, num1 % num2
+    return num1
+print(find_gcf(20,35))
