@@ -163,22 +163,26 @@ print(find_gcf(20,35)) """
 
 #REVIEW ABOVE CODE!!!!!!
 
-""" while num2 > 0:
-    num1, num2 = num2, num1 % num2
- """
-""" 
-def vote(age, id):
+
+""" def vote(age, id):
     if age < 18 or id == False:
         print ("cannot vote")
     elif age >18 and id == True:
         print("vote")
- """
-""" def skins(money, age, isAvailable):
+ 
+def skins(money, age, isAvailable):
     if money <10 or age < 18 or isAvailable == False:
         return ("cannot buy")
 def skins2(money, age, isAvailable):
     if isAvailable == True:
         if money > 10 or cost == 0:
-            print("GO off Queen")
+            print("Go off Queen")
         else:
-            print("Janet Broke") """
+            print("Janet Broke Gurl")
+def skins3(money, cost, isAvailable):
+    if isAvailable == False:
+        print("nope")
+    else:
+        if money >= cost:
+            print("go queen")
+            print(f'Janet has (money - cost) dollars left') """
