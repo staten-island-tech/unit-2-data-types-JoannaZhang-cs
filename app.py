@@ -144,11 +144,41 @@ print(find_factors(15))
 #Create a function that accepts 2 arguments. Find the greatest common factor between those numbers.
 
 def find_gcf(num1,num2):
-    while num2 > 0:
     #!= means not equal
+    while num2 > 0:
         num1, num2 = num2, num1 % num2
     return num1
 print(find_gcf(20,35))
 
+""" def find_gcf(num1,num2):
+    #!= means not equal
+    num1 = True
+    num2 = True
+
+    def GCF():
+        if num1 == True and num2 == True:
+            print("True")
+    return num1
+print(find_gcf(20,35)) """
 
 #REVIEW ABOVE CODE!!!!!!
+
+""" while num2 > 0:
+    num1, num2 = num2, num1 % num2
+ """
+""" 
+def vote(age, id):
+    if age < 18 or id == False:
+        print ("cannot vote")
+    elif age >18 and id == True:
+        print("vote")
+ """
+""" def skins(money, age, isAvailable):
+    if money <10 or age < 18 or isAvailable == False:
+        return ("cannot buy")
+def skins2(money, age, isAvailable):
+    if isAvailable == True:
+        if money > 10 or cost == 0:
+            print("GO off Queen")
+        else:
+            print("Janet Broke") """
