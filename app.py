@@ -142,13 +142,36 @@ print(find_factors(15))
 
 
 #Create a function that accepts 2 arguments. Find the greatest common factor between those numbers.
+def find_factors(n):
+    factors = []
+    for i in range(1, n+1):
+        if n % i == 0:
+            factors.append(i)
+    return factors
+print(find_factors(int(input("put in a number:"))))
 
-def find_gcf(num1,num2):
+""" def find_gcf(factor1, factor2):
+    factor1 = []
+    factor2 = []
+    def common_factors(factor1, factor2):
+        for i in factor1:
+            if i in factor2:
+                return i
+        if n % i == 0 and n % i == 0:
+            factors.append(i)
+    return gcf       
+factor1 = 3
+factor2 = 15
+print(find_gcf(factor1, factor2)) """
+
+
+
+""" def find_gcf(num1,num2):
     #!= means not equal
     while num2 > 0:
         num1, num2 = num2, num1 % num2
     return num1
-print(find_gcf(20,35))
+print(find_gcf(20,35)) """
 
 """ def find_gcf(num1,num2):
     #!= means not equal
